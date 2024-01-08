@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----header----- */
+.header{
+    background-color: black;
+    display: block;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    position: sticky;
+    top: 0px;
+    z-index: 50;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5%;
+    font-size: larger;
+    
+}
+.word{
+    background-color:#cb3b3b ;
+    border-radius: 40px ;
+    padding: 6px 20px;
+    margin: 0% 1.5% ;
+}
+.covide-19{
+    margin:0%;
+    padding: 0%;
+}
+/* ----navbar---- */
+.navbar{
+    background-color: #cb3b3b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5% ;
+}
+.navbar .links{
+    flex: 1;
+    text-align: right;
+}
+.logo{
+    margin-left: 4%;
+}
+.icone{
+    background-color: black;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 1%;
+}
+.navbar .links ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 8px 12px;
+    font-size: 15px;
+    margin-left: 3%;
+}
+.navbar .links ul li:hover{
+    background-color: black;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.navbar .links ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight:lighter;
+}
+
+/* ----section1------ */
+.section-1{
+    min-height: 75vh;
+    width: 100%;
+    color: white;
+    background: linear-gradient(rgba(128, 128, 128, 0), rgba(2, 6, 19, 1)), url(../hiphopImages/positiveImages/montain.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.section-1 .heading{
+    min-width:50%;
+    margin-left: 50px;
+    padding-top: 10%;
+}
+
+.heading .h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.paragraph-1{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.shop-button{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 8px 25px;
+}
+
+.shop-button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5;
+}
+
+/* ---section2--- */
+
+.support-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+}
+
+.support{
+    min-width: 50%;
+
+}
+.support-span{
+    font-size: 50px;
+}
+.covide-div{
+    padding-left: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 2%;
+}
+
+.container .product{
+    color: white;
+    background-color: black;
+    border-radius:5px ;
+    width: 28vw;
+    height: 50vh;
+}
+.product p{
+  font-size: 3rem;
+  padding: 20px 0px 0px 20px;
+}
+
+.product h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top:20%;
+}
+.product .circle{
+    margin-top: 30%;
+    margin-left: 80%;
+    overflow: hidden;
+}
+.product .triangle{
+    margin-top: 30%;
+    margin-left: 68%;
+    overflow: hidden;
+}
+.product .square{
+    margin-top: 30%;
+    margin-left: 75%;
+}
+.container .sub-p{
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+.container .sub-p p{
+ width: 30vw;
+ line-height: 25px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* ----section3---- */
+
+.section-3{
+    min-height: 75vh;
+    width: 100%;
+    color: white;
+    background: linear-gradient(rgba(128, 128, 128, 0), rgba(2, 6, 19, 1)), url(../hiphopImages/positiveImages/section-2-img.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-3-container{
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+    min-width:50%;
+    margin-left: 50px;
+    margin-right: 5%;
+    padding-top: 13%;
+    flex-wrap: wrap;
+}
+
+.section-3-container h1{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.section-3-container p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-bottom: 3%;
+}
+.section-3-container .button-3{
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 40px;
+    
+}
+.section-3-container .button-3:hover{
+    background-color: #cb3b3b;
+    color: white;
+    transition: 0.2s;
+}
+/* ----section4---- */
+.top-section-4{
+    padding: 4%;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.top-p{
+    padding-bottom: 0%;
+    margin-bottom: 0% ;
+    margin-left: 1%;
+}
+ .top-p .open-date{
+   font-size: 40px;
+   font-weight:bold;
+   margin-left: 1%;
+    margin-bottom: 0px;
+}
+.product-selling{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 4%;
+    margin-right: 1%;
+}
+.tente-div{
+    background: url(../hiphopImages/positiveImages/section-3-img3.jpeg);
+    min-height: 65vh;
+    min-width: 28vw;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.cup-div{
+    background: url(../hiphopImages/positiveImages/section-3-img1.jpeg);
+    min-height: 65vh;
+    min-width: 28vw;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+.bagback-div{
+    background: url(../hiphopImages/positiveImages/section-3-img2.jpeg);
+    min-height: 65vh;
+    min-width: 28vw;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.inside-sale-div{
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 5%;
+    padding-right: 4%;
+    position: relative;
+}
+.inside-sale-div a{
+    background-color: #cb3b3b;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 2% 5%;
+}
+.sub-p2{
+  text-align: center;
+  padding: 20px ;
+  line-height: 30px;
+  font-size: 23px;
+  font-weight: lighter;
+
+}
+.sub-p2 span{
+    font-size: small;
+    font-weight: bold;
+}
+.sub-p2 span strike{
+    color: red;
+}
+.sub-p2 .details-button{
+    text-decoration: none;
+    color: white;
+    background-color: #cb3b3b;
+    border-radius: 10px;
+    padding: 2.5% 9%;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub-p2 .details-button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+.viewAllProduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.viewAllProduct a{
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin-top:3% ;
+    margin-left: 3%;
+}
+.viewAllProduct a:hover{
+    background-color: #cb3b3b;
+    transition: 0.4s;
+}
+/* ---section5---- */
+.section-5{
+    margin-top: 5%;
+    position: relative;
+}
+.shopLocal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width:70vw;
+    height: 72%;
+    min-height:72vh;
+    margin-left: 25%;
+}
+.shopLocal-img{
+    display: inline-block;
+    background: url(../hiphopImages/positiveImages/section-5-img.jpeg);
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;
+    min-width: 28vw ;
+    border-radius: 10px;
+    position: absolute;
+    top: 6%;
+    left: 8%;
+}
+.shoplocal-div{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    text-align: left;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+}
+.shoplocal-div h1{
+    font-size:50px ;
+    margin-bottom: 4%;
+}
+.shoplocal-div p{
+   word-spacing: 2px;
+}
+/* ----footer--- */
+footer{
+    margin-top: 10%;
+    min-height: 25vh;
+    min-width: 100%;
+    background-color: black;
+    padding: 5%;
+    padding-bottom: 0%;
+}
+footer .media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .media ul li{
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+footer .media .social-media ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px;
+}
+.sub-footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.sub-footer .webflow-site{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.sub-footer .webflow-site a{
+    color: #cb3b3b;
+}
+.sub-footer .webflow-site a:hover{
+    text-decoration: none;
+}
+.webflow-button a{
+  text-decoration: none;
+  background-color: white;
+  padding: 5px;
+  border-radius: 4px;
+  color: black;
+  position: fixed;
+  bottom: 1.5%;
+  right: 0%;
+}
+@media (max-width: 768px){ 
+    .support-div{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 5% 3%;
+    }
+    .covide-div{
+        margin-top: 3%;
+        padding-left: inherit;
+        line-height: 2em;
+        font-size: large;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column ;
+    }
+     .container .product{
+        width:90vw;
+        height: 60vh;
+    }
+    .product h1{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1.5rem;
+     text-align: center;
+     margin-top:10%;
+    }
+    .container .sub-p{
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .container .sub-p p{
+     width: 80vw;
+     line-height: 25px;
+     font-family: Arial, Helvetica, sans-serif;
+    }
+    .product .circle{
+        margin-top: 10%;
+        margin-left: 85%;
+        overflow: hidden;
+    }
+    .product .triangle{
+        margin-top: 10%;
+        margin-left: 80%;
+        overflow: hidden;
+    }
+    .product .square{
+        margin-top: 10%;
+        margin-left: 85%;
+    }
+    /* section4 */
+    .product-selling{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+    }
+    .tente-div{
+            background: url(../hiphopImages/positiveImages/section-3-img3.jpeg);
+            min-height: 65vh;
+            min-width: 85vw;
+            background-position: center;
+            background-size: cover;
+            display: inline-block;
+            border-radius: 10px;
+    }
+    .bagback-div{
+            background: url(../hiphopImages/positiveImages/section-3-img2.jpeg);
+            min-height: 65vh;
+            min-width: 85vw;
+            background-position: center;
+            background-size: cover;
+            display: inline-block;
+            border-radius: 10px;
+    }
+    .cup-div{
+            background: url(../hiphopImages/positiveImages/section-3-img1.jpeg);
+            min-height: 65vh;
+            min-width: 85vw;
+            background-position: center;
+            background-size: cover;
+            display: inline-block;
+            border-radius: 10px;
+            
+    }
+    .details{
+            margin-bottom: 5%;
+    }
+    /* section5 */
+    .section-5{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        position: inherit;
+    }
+    .shoplocal-div{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 70vw;
+        line-height: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10%  15%;
+    }
+    .shopLocal{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        border-radius: 0px;
+        width:100vw;
+        min-height:72vh;
+        margin-left:inherit;
+    }
+    .shopLocal-img{
+        display: block;
+        background: url(../hiphopImages/positiveImages/section-5-img.jpeg);
+        background-position: center;
+        background-size: cover;
+        min-height: 60vh;
+        min-width:100vw ;
+        border-radius: 0px;
+        position: inherit;
+    }
+    }
+    
+    

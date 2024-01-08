@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: black;
+    display: block;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    position: sticky;
+    top: 0px;
+    z-index: 50;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5%;
+    font-size: larger;
+    
+}
+.word{
+    background-color:#cb3b3b ;
+    border-radius: 40px ;
+    padding: 6px 20px;
+    margin: 0% 1.5% ;
+}
+.covide-19{
+    margin:0%;
+    padding: 0%;
+}
+/* ----navbar---- */
+.navbar{
+    background-color: #cb3b3b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5% ;
+}
+.navbar .links{
+    flex: 1;
+    text-align: right;
+}
+.logo{
+    margin-left: 4%;
+}
+.icone{
+    background-color: black;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 1%;
+}
+.navbar .links ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 8px 12px;
+    font-size: 15px;
+    margin-left: 3%;
+}
+.navbar .links ul li:hover{
+    background-color: black;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.navbar .links ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight:lighter;
+}
+
+/* ---section1--- */
+.section-1{
+    background-color: black;
+    color: white;
+    min-height: 18vh; 
+    display: flex; 
+    align-items: center;
+}
+
+.section-1 h1{
+    font-size: 40px;
+    margin-left: 5%;
+}
+
+/* section2 */
+.section-2{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding: 0% 5%;
+}
+.gift-card{
+    background: url(../hiphopImages/positiveImages/acme-gift-card.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 50vw;
+    border-radius: 5px;
+    margin-right: 5%;
+}
+.gift-details{
+ max-width: 70vw
+
+}
+.section-2 h1,h4,h3{
+    margin-bottom: 3%;
+}
+.section-2 p{
+    margin-bottom: 3%;
+    line-height: 25px;
+}
+#quantity{
+    width: 5vw;
+    height: 5vh;
+    font-size: 20px;
+    text-align: center;
+    border: black solid 1px ;
+    border-radius: 5px;
+    margin-bottom: 3%;
+}
+#quantity:hover{
+    border-color: #cb3b3b;
+}
+button{
+    height: 5vh;
+    font-size: 15px ;
+    padding: 0% 4%;
+    text-align: center;
+    color:#cb3b3b;
+    border: #cb3b3b solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 3%;
+}
+button:hover{
+    background-color: #cb3b3b;
+    color: white;
+}
+.section-2 a{
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+a .twitterlink{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1d9bf0;
+    border-radius: 50px;
+    padding-right: 3%;
+    min-width: 6.5vw ;
+}
+a .twitterlink:hover{
+    background-color: #0c7abf;
+}
+/* footer */
+footer{
+    margin-top: 10%;
+    min-height: 25vh;
+    min-width: 100%;
+    background-color: black;
+    padding: 5%;
+    padding-bottom: 0%;
+}
+footer .media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .media ul li{
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+footer .media .social-media ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px;
+}
+.sub-footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.sub-footer .webflow-site{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.sub-footer .webflow-site a{
+    color: #cb3b3b;
+}
+.sub-footer .webflow-site a:hover{
+    text-decoration: none;
+}
+.webflow-button a{
+  text-decoration: none;
+  background-color: white;
+  padding: 5px;
+  border-radius: 4px;
+  color: black;
+  position: fixed;
+  bottom: 1.5%;
+  right: 0%;
+}
